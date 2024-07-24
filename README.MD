@@ -1,0 +1,25 @@
+# MACCHINE_USATE
+
+- ID: PK Auto BIGINT
+- Marca: VARCHAR(25) NOTNULL
+- Modello; VARCHAR(25) NOTNULL
+- Prezzo: FLOAT(8,2) NULL
+- Cilindrata: SMALLINT NOTNULL
+- Potenza: SMALLINT NULL
+- Cilindri: TINYINT NULL
+- Classe_emissione: VARCHAR(10) NULL <!-- EURO 4, 5, 6, ecc -->
+- Chilometraggio: MEDIUMINT NOTNULL
+- Anno_immatricolazione: DATE NOTNULL
+- Cambio: VARCHAR(10) NULL <!-- manuale o automatico -->
+- Marce: TINYINT NULL
+- Alimentazione: VARCHAR(20) NOTNULL
+- Carrozzeria: VARCHAR(15) NULL  <!-- tipologia di carrozzeria(berlina,suv,ecc) -->
+- Posti: TINYINT NULL
+- Porte: TINYINT NULL
+- Peso: SMALLINT NULL
+- Equipaggiamento: TEXT NULL
+- Colore_esterno: VARCHAR(15) NULL
+- Colore_interno: VARCHAR(15) NULL
+- Materiale_interni: VARCHAR(15) NULL
+- Targa: VARCHAR(7) NOTNULL UNIQUE <!-- PRESUPPONE LA VENDITA DI SOLE AUTO IMMATRICOLATE IN ITALIA -->
+- Note: TEXT NULL
