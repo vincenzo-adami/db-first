@@ -1,25 +1,25 @@
-# MACCHINE_USATE
+# USED_CARS
 
 - ID: PK Auto BIGINT
-- Marca: VARCHAR(25) NOTNULL
-- Modello; VARCHAR(25) NOTNULL
-- Prezzo: FLOAT(8,2) NULL
-- Cilindrata: SMALLINT NOTNULL
-- Potenza: SMALLINT NULL
-- Cilindri: TINYINT NULL
-- Classe_emissione: VARCHAR(10) NULL <!-- EURO 4, 5, 6, ecc -->
-- Chilometraggio: MEDIUMINT NOTNULL
-- Anno_immatricolazione: DATE NOTNULL
-- Cambio: VARCHAR(10) NULL <!-- manuale o automatico -->
-- Marce: TINYINT NULL
-- Alimentazione: VARCHAR(20) NOTNULL
-- Carrozzeria: VARCHAR(15) NULL  <!-- tipologia di carrozzeria(berlina,suv,ecc) -->
-- Posti: TINYINT NULL
-- Porte: TINYINT NULL
-- Peso: SMALLINT NULL
-- Equipaggiamento: TEXT NULL
-- Colore_esterno: VARCHAR(15) NULL
-- Colore_interno: VARCHAR(15) NULL
-- Materiale_interni: VARCHAR(15) NULL
-- Targa: VARCHAR(7) NOTNULL UNIQUE <!-- PRESUPPONE LA VENDITA DI SOLE AUTO IMMATRICOLATE IN ITALIA -->
+- Brand: VARCHAR(25) NOTNULL
+- Model; VARCHAR(25) NOTNULL
+- Price: DECIMAL(8,2) NULL
+- Displacement: SMALLINT NOTNULL
+- Engine_power: SMALLINT NULL
+- Cylinder : TINYINT NULL
+- Class_emission: VARCHAR(10) NULL <!-- EURO 4, 5, 6, ecc / relazione con altra tabella -->
+- Mileage: MEDIUMINT NOTNULL
+- Registration: YEAR NOTNULL
+- Transmission: VARCHAR(10) NULL <!-- manuale o automatico -->
+- Gear: TINYINT NULL
+- ? Fuel_type: VARCHAR(20) NOTNULL <!-- relazione con altra tabella>
+- Car_body_style: VARCHAR(15) NULL  <!-- tipologia di carrozzeria(berlina,suv,ecc)/ relazione con altra tabella -->
+- Seats: TINYINT NULL
+- Doors: TINYINT NULL
+- Weight: SMALLINT NULL
+- Features: TEXT NULL
+- Exterior_color: VARCHAR(40) NULL
+- Interior_color: VARCHAR(40) NULL
+- Interior_material: VARCHAR(40) NULL
+- Car_license_plate: VARCHAR(7) NOTNULL UNIQUE <!-- PRESUPPONE LA VENDITA DI SOLE AUTO IMMATRICOLATE IN ITALIA -->
 - Note: TEXT NULL
