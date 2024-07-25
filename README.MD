@@ -7,13 +7,13 @@
 - displacement: SMALLINT NOTNULL
 - engine_power: SMALLINT NULL
 - cylinder : TINYINT NULL
-- emission_classes: VARCHAR(10) NULL <!-- EURO 4, 5, 6, ecc / relazione con altra tabella -->
+- ? emission_classes: VARCHAR(20) NULL <!-- EURO 4, 5, 6, ecc / relazione con altra tabella -->
 - mileage: MEDIUMINT NOTNULL
 - registration: YEAR NOTNULL
 - transmission: VARCHAR(10) NULL <!-- manuale o automatico -->
 - gear: TINYINT NULL
 - ? fuel_type: VARCHAR(20) NOTNULL <!-- relazione con altra tabella -->
-- car_body_style: VARCHAR(15) NULL  <!-- tipologia di carrozzeria(berlina,suv,ecc)/ relazione con altra tabella -->
+- ? car_body_style: VARCHAR(15) NULL  <!-- tipologia di carrozzeria(berlina,suv,ecc)/ relazione con altra tabella -->
 - seats: TINYINT NULL
 - doors: TINYINT NULL
 - weight: SMALLINT NULL
