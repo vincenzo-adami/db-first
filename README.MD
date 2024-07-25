@@ -1,7 +1,7 @@
 # used_cars
 
 - id: PK Auto BIGINT
-- brand: VARCHAR(25) NOTNULL
+- ? brand: VARCHAR(25) NOTNULL <!-- Elenco marche in un'altra tabella -->
 - model; VARCHAR(25) NOTNULL
 - price: DECIMAL(8,2) NULL
 - displacement: SMALLINT NOTNULL
